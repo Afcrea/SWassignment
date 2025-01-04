@@ -1,0 +1,58 @@
+#include <string>
+#include <vector>
+#include <iostream>
+#include <cctype>
+#include <algorithm>
+
+using namespace std;
+
+vector<string> solution(vector<string> quiz) {
+    vector<string> answer;
+
+    for (int i = 0; i < quiz.size(); i++) {
+        string numbers, letters;
+        vector<int> nums;
+        int j = 0;
+        for (char ch : quiz[i]) {
+            if (isdigit(ch)) {
+                if (j > 0 && !letters.empty()) {
+                    if (letters.back() == '-') {
+                        numbers += '-';
+                        letters.pop_back();
+                    }
+                }
+                numbers += ch; // 숫자일 경우 numbers에 추가
+            }
+            else {
+                letters += ch; // 기호일 경우 letters에 추가
+                if (!numbers.empty()) {
+                    nums.push_back(stoi(numbers));
+                    numbers = "";
+                }
+            }
+            j++;
+        }
+
+        if (!numbers.empty())
+            nums.push_back(stoi(numbers));
+        numbers = "";
+
+        letters.erase(std::remove(letters.begin(), letters.end(), ' '), letters.end());
+
+        int b = 0;
+
+for (char equal : letters) {
+    if (equal == '=') {
+        if (letters[b-1] == '+') {
+            answer.push_back(nums[0] + nums[1] == nums[2] ? "O" : "X");
+        }
+        else if (letters[b-1] == '-') {
+            answer.push_back(nums[0] - nums[1] == nums[2] ? "O" : "X");
+        }
+    }
+    b++;
+}
+    }
+
+    return answer;
+}

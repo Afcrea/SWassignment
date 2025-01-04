@@ -1,0 +1,37 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+bool Cal(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4);
+
+int solution(vector<vector<int>> dots) {
+    int answer = 0;
+    bool a = false;
+    // 12,34
+    a = Cal(dots[0][0], dots[0][1], dots[1][0], dots[1][1], dots[2][0], dots[2][1], dots[3][0], dots[3][1]);
+    
+    if(a) {
+        answer = 1;
+    }
+    
+    // 13, 24
+    a = Cal(dots[0][0], dots[0][1], dots[2][0], dots[2][1], dots[1][0], dots[1][1], dots[3][0], dots[3][1]);
+    
+    if(a) {
+        answer = 1;
+    }
+    
+    // 14, 23
+    a = Cal(dots[0][0], dots[0][1], dots[3][0], dots[3][1], dots[1][0], dots[1][1], dots[2][0], dots[2][1]);
+    
+    if(a) {
+        answer = 1;
+    }
+    
+    return answer;
+}
+
+bool Cal(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4) {
+    return (y2 - y1) * (x4 - x3) == (y4 - y3) * (x2 - x1);
+}

@@ -1,0 +1,80 @@
+#include <string>
+#include <vector>
+#include <algorithm>
+#include<cmath>
+using namespace std;
+
+int solution(int a, int b, int c, int d) {
+    int answer = 0;
+    int type = 0;
+    int p = 0;
+    int q = 0;
+    int r = 0;
+    
+    //분류
+    vector<int> nums;
+    nums.push_back(a);
+    nums.push_back(b);
+    nums.push_back(c);
+    nums.push_back(d);
+    
+    sort(nums.begin(), nums.end());
+    
+    if(nums[0] == nums[3]) {
+        type = 1;
+        p = nums[0];
+    }
+    else if (nums[0] == nums [2]) {
+        type = 2;
+        p = nums[0];
+        q = nums[3];
+    }
+    else if (nums[1] == nums [3]) {
+        type = 2;
+        p = nums[1];
+        q = nums[0];
+    }
+    else if (nums[0] == nums[1] && nums[2] == nums[3]) {
+        type = 3;
+        p = nums[0];
+        q = nums[2];
+    }
+    else if (nums[0] == nums[1]) {
+        type = 4;
+        q = nums[2];
+        r = nums[3];
+    }
+    else if (nums[1] == nums[2]) {
+        type = 4;
+        q = nums[0];
+        r = nums[3];
+    }
+    else if (nums[2] == nums[3]) {
+        type = 4;
+        q = nums[0];
+        r = nums[1];
+    }
+    else {
+        type = 5;
+    }
+    
+    switch(type) {
+        case 1:
+            answer = p*1111;
+            break;
+        case 2:
+            answer = pow(10*p+q, 2);
+            break;
+        case 3:
+            answer = (p + q) * ((p - q) > 0 ? (p - q) : (q - p));
+            break;
+        case 4:
+            answer = q * r;
+            break;
+        case 5:
+            answer = nums[0];
+            break;
+    }
+    
+    return answer;
+}
