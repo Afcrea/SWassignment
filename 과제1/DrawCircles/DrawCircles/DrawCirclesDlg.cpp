@@ -14,11 +14,11 @@
 #endif
 #include <thread>
 
-#ifdef _UNICODE
-#pragma comment(linker, "/entry:wWinMainCRTStartup /subsystem:console")
-#else
-#pragma comment(linker, "/entry:WinMainCRTStartup /subsystem:console")
-#endif
+//#ifdef _UNICODE
+//#pragma comment(linker, "/entry:wWinMainCRTStartup /subsystem:console")
+//#else
+//#pragma comment(linker, "/entry:WinMainCRTStartup /subsystem:console")
+//#endif
 
 
 #pragma region 기본 함수들
@@ -204,7 +204,6 @@ void CDrawCirclesDlg::Init() {
 // 메뉴 바 : 세점으로 원 그리기 다이얼로그 생성
 void CDrawCirclesDlg::OnMenuThreecircles()
 {
-//	std::cout << m_pMyDialog;
 	// TODO: 여기에 명령 처리기 코드를 추가합니다.
 	if (m_pMyDialog == nullptr) // 다이얼로그가 이미 열려 있는지 확인
 	{
@@ -334,7 +333,7 @@ void CDrawCirclesDlg::moveCircle()
 		}
 	}
 
-	std::cout << "x1 : " << x1 << " y1 : " << y1 << "radius : " << nRadius << std::endl;
+	//std::cout << "x1 : " << x1 << " y1 : " << y1 << "radius : " << nRadius << std::endl;
 
 	drawCircle(fm, ++x1, ++y1, 0xff);
 

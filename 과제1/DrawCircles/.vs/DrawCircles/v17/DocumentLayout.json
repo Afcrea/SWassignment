@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCirclesDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|solutionrelative:DrawCircles\\DrawCirclesDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCirclesDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|solutionrelative:DrawCircles\\DrawCirclesDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCircles.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     ",
+      "RelativeMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|solutionrelative:DrawCircles\\DrawCircles.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     "
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCircles.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u00A3 2$  \u0022     ",
+      "RelativeMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|solutionrelative:DrawCircles\\DrawCircles.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u00A3 2$  \u0022     "
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\CThreeCirclesDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|solutionrelative:DrawCircles\\CThreeCirclesDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\CThreeCirclesDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7754D533-B4F5-44D0-9463-8A6300C8C166}|DrawCircles\\DrawCircles.vcxproj|solutionrelative:DrawCircles\\CThreeCirclesDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\atlmfc\\include\\atlimage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DrawCircles.rc - IDD_DRAWCIRCLES_DIALOG - Dialog",
+              "DocumentMoniker": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCircles.rc",
+              "RelativeDocumentMoniker": "DrawCircles\\DrawCircles.rc",
+              "ToolTip": "C:\\Users\\mr199\\source\\repos\\DrawCircles\\DrawCircles\\DrawCircles.rc - IDD_DRAWCIRCLES_DIALOG - Dialog",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\DrawCircles\\DrawCircles\\DrawCircles.rc - IDD_DRAWCIRCLES_DIALOG - Dialog",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-01-04T05:17:43.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DrawCircles.rc - IDD_THREECIRCLES_DIALOG - Dialog",
+              "DocumentMoniker": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCircles.rc",
+              "RelativeDocumentMoniker": "DrawCircles\\DrawCircles.rc",
+              "ToolTip": "C:\\Users\\mr199\\source\\repos\\DrawCircles\\DrawCircles\\DrawCircles.rc - IDD_THREECIRCLES_DIALOG - Dialog",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\DrawCircles\\DrawCircles\\DrawCircles.rc - IDD_THREECIRCLES_DIALOG - Dialog",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-01-04T05:17:42.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "atlimage.h",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\atlmfc\\include\\atlimage.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\atlmfc\\include\\atlimage.h",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\atlmfc\\include\\atlimage.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\atlmfc\\include\\atlimage.h",
+              "ViewState": "AgIAADAFAAAAAAAAAAAawEcFAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-04T04:01:54.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DrawCirclesDlg.h",
+              "DocumentMoniker": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCirclesDlg.h",
+              "RelativeDocumentMoniker": "DrawCircles\\DrawCirclesDlg.h",
+              "ToolTip": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCirclesDlg.h",
+              "RelativeToolTip": "DrawCircles\\DrawCirclesDlg.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-02T16:10:03.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DrawCirclesDlg.cpp",
+              "DocumentMoniker": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCirclesDlg.cpp",
+              "RelativeDocumentMoniker": "DrawCircles\\DrawCirclesDlg.cpp",
+              "ToolTip": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\DrawCirclesDlg.cpp",
+              "RelativeToolTip": "DrawCircles\\DrawCirclesDlg.cpp",
+              "ViewState": "AgIAAHsBAAAAAAAAAADgv50BAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-02T16:02:36.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CThreeCirclesDlg.h",
+              "DocumentMoniker": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\CThreeCirclesDlg.h",
+              "RelativeDocumentMoniker": "DrawCircles\\CThreeCirclesDlg.h",
+              "ToolTip": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\CThreeCirclesDlg.h",
+              "RelativeToolTip": "DrawCircles\\CThreeCirclesDlg.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-03T01:39:42.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CThreeCirclesDlg.cpp",
+              "DocumentMoniker": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\CThreeCirclesDlg.cpp",
+              "RelativeDocumentMoniker": "DrawCircles\\CThreeCirclesDlg.cpp",
+              "ToolTip": "C:\\Users\\mr199\\Downloads\\SWassignment-main\\SWassignment-main\\\uACFC\uC81C1\\DrawCircles\\DrawCircles\\CThreeCirclesDlg.cpp",
+              "RelativeToolTip": "DrawCircles\\CThreeCirclesDlg.cpp",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv08AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-03T01:41:17.534Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
