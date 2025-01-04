@@ -55,7 +55,7 @@ ipch/
 *.tlog
 
 # image files
-*.ico
+
 *.bmp
 
 
