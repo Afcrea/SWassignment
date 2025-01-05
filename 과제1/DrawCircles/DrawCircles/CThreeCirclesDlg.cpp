@@ -9,6 +9,8 @@
 #include "iostream"
 
 
+#pragma region 기본 함수들
+
 // CThreeCirclesDlg 대화 상자
 
 IMPLEMENT_DYNAMIC(CThreeCirclesDlg, CDialogEx)
@@ -43,10 +45,11 @@ BEGIN_MESSAGE_MAP(CThreeCirclesDlg, CDialogEx)
     ON_WM_PAINT()
 END_MESSAGE_MAP()
 
+#pragma endregion
 
 // CThreeCirclesDlg 메시지 처리기
 
-
+// 확인 버튼
 void CThreeCirclesDlg::OnBnClickedOk()
 {
     if (this != nullptr)
@@ -57,7 +60,7 @@ void CThreeCirclesDlg::OnBnClickedOk()
     }
 }
 
-
+// 취소 버튼
 void CThreeCirclesDlg::OnBnClickedCancel()
 {
     if (this != nullptr)
@@ -67,7 +70,7 @@ void CThreeCirclesDlg::OnBnClickedCancel()
     }
 }
 
-
+// 마우스 버튼 다운 이벤트
 void CThreeCirclesDlg::OnLButtonDown(UINT nFlags, CPoint point)
 {
 	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
@@ -94,7 +97,7 @@ void CThreeCirclesDlg::OnLButtonDown(UINT nFlags, CPoint point)
 	CDialogEx::OnLButtonDown(nFlags, point);
 }
 
-
+// 마우스 무브 이벤트
 void CThreeCirclesDlg::OnMouseMove(UINT nFlags, CPoint point)
 {
 	if (nFlags & MK_LBUTTON)
@@ -112,7 +115,7 @@ void CThreeCirclesDlg::OnMouseMove(UINT nFlags, CPoint point)
 	}
 }
 
-
+// 그리기 이벤트
 void CThreeCirclesDlg::OnPaint()
 {
 	CPaintDC dc(this);
@@ -148,6 +151,7 @@ void CThreeCirclesDlg::OnPaint()
 	}
 }
 
+// 마우스가 포인트 주변인지 판단
 bool CThreeCirclesDlg::IsPointNear(const CPoint& p1, const CPoint& p2, int tolerance)
 {
 	// 두 점 간의 거리 계산
@@ -157,6 +161,7 @@ bool CThreeCirclesDlg::IsPointNear(const CPoint& p1, const CPoint& p2, int toler
 	return distance <= tolerance;
 }
 
+// 세 점으로 원 그리기
 void CThreeCirclesDlg::CalculateCircle()
 {
 	if (m_ClickCount < 3) return; // 좌표가 3개 미만이면 계산하지 않음

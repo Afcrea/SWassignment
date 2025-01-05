@@ -62,22 +62,21 @@ public:
 	int x2;
 	int y2;
 
-	int nSttX;
-	int nSttY;
+	int nSttX; // 시작 지점 X
+	int nSttY; // 시작 지점 Y
 
-	int nRadius;
+	int nRadius; // 원의 반지름
 
-	bool isAction;
+	bool isAction; // 액션 수행 중인지 판단
 
-	CString savedPath;
-	CString loadedPath;
-	int saveTime;
+	CString savedPath; // 저장 경로
+	int saveTime; // 이미지 저장 시 저장한 횟수, 파일 이름에 붙이기용
 
-	bool isNotFound;
+	bool isNotFound; // 이미지 로드 시 원이 없을 경우
 
 	afx_msg void OnBnClickedBtnDraw();
 	afx_msg void OnBnClickedBtnAction();
-	BOOL isTrace;
+	BOOL isTrace; // 원 이동 반경
 	afx_msg void OnBnClickedCheckTrace();
 	afx_msg void OnBnClickedBtnLoad();
 };
